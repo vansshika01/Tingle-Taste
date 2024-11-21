@@ -1,0 +1,323 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Bebas+Neue&family=Birthstone+Bounce&family=Ephesis&family=Homemade+Apple&family=Oregano&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Birthstone+Bounce&family=Ephesis&family=Homemade+Apple&family=Oregano&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Birthstone+Bounce&family=Ephesis&family=Homemade+Apple&display=swap');
+*{
+    margin:0;
+}
+.navbar{
+    background-color:rgb((249, 247, 247), 241, 241) ;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    align-items: center;
+}
+.navbar ul{
+    overflow: hidden;
+}
+.navbar li{
+    color:rgb(11, 5, 5);
+    font-weight: 500;
+    list-style-type: none;
+    float:left;
+    }
+li:hover{
+    font-weight: 800;
+    cursor: pointer;
+}
+#tingletaste{
+    font-family: 'Birthstone Bounce', cursive;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.list {
+    padding-left:70px;
+    padding-right:70px;
+    padding-top: 25px;
+}
+#home {
+    padding-left: 120px;
+}
+#search{
+    color: black;
+    height: 50px;
+    width: 50px;
+    display:block;
+}
+.logo{
+    background-image: url(asset/background\ image.jpg);
+    width:100%;
+    height: 570px;
+}
+#main{
+    height:fit-content;
+    width:fit-content;
+    color: white;
+    padding-top: 200px;
+    margin-left: 600px;
+    margin-right: 20px;
+}
+    
+.vsmall{
+    font-size:10px;
+}
+.small{
+    font-size:17px;
+}
+.large{
+    padding: 20px;
+    font-size:80px;
+    font-family: 'Birthstone Bounce', cursive;;
+}
+
+#costumerfav{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 25px;
+    width: 70%;
+    overflow:hidden;
+    margin: auto;
+    text-align: center;
+    padding : 20px;
+    letter-spacing: .15em;
+    margin-top: 20px;
+    font-weight: 700;
+    font-family:  'Oregano', cursive;;
+}
+.container1, .container2{
+    width:90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space space-evenly;
+    margin:auto;
+    margin-top: 50px;
+}
+.food{
+    width:100%;
+    height: 360px;
+}
+.link{
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+    width:70%;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom:30px;
+    border: 1px solid #121212;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    cursor: pointer;
+    text-decoration: none;
+}
+.item1, .item2,.item3,.item4,.item5,.item6,.item7,.item8{
+    background-color: white;
+    margin:auto;
+    width:240;
+    padding:2px;
+}
+a{
+    text-decoration: none;
+    font-family: proximanova, Arial, Helvetica, Geneva, sans-serif;
+    font-weight: 700;
+    color: black;
+}
+.heading{
+    font-family: 'Bayon', sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+    font-style: inherit;
+    vertical-align: baseline;
+    white-space: normal;
+    margin: auto ;
+    text-align: center;
+    margin-top: 10px;
+}
+.cookicon{
+    width:20px;
+    height:auto;
+    margin :auto;
+    margin-left: 15px;
+}
+        .footer{
+            display: flex;
+            flex-direction: row;
+            background-color: black;
+            height: 350px;
+            width: 97%;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        .wrap{
+            width: 21%;
+            height:330px;
+            margin: auto;
+            margin-left: 20px;
+            margin-right: 0px;
+            float: left;
+            display: block;
+            padding-left: 20px;
+        }
+        .left{
+            width:100%;
+            height:100%;
+        }
+        .description{
+            height: 330px;
+            width: 400px;
+            margin: auto;
+            background-color: rgb(41, 40, 40);
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        #want{
+            font-family: 'Birthstone Bounce';
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        #heading{
+            border: 5px;
+            padding-top: 10px;
+            margin-top: 10px;
+            font-size: 15px;
+            padding-left: 10px;
+            color: white;
+        }
+        #caption{
+            border: 5px;
+            font-size: 18px;
+            padding-left: 10px;
+            text-align: center;
+            color: white;
+            line-height: 25px;
+            padding-bottom: 15px;
+        }
+        #email{
+            border: 0px;
+            font-size: 19px;
+            padding-right: 10px;
+            text-align:center;
+            background-color: white;
+            width:330px;
+            height: 35px;
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+        .btn2{
+                font-size: 19px;
+                padding-right: 10px;
+                text-align:center;
+                color:white;
+                width:341px;
+                height: 35px;
+                margin-left: 30px;
+                border:0px;
+                background-color: rgb(82, 78, 78);
+        }
+        .subs{
+            margin-top: 10px;
+            width: 350px;
+
+        }
+        .quicklinks,.browse,.follow{
+            margin:auto;
+            margin-left: 0px;
+            text-align: center;
+            float: left;
+            color: white;
+            width:14%;
+            font-family: 'Bebas Neue', sans-serif;
+            letter-spacing: 0.3em;
+        }
+        .line{
+            color: rgb(249, 247, 247);
+            size:2px;
+            width: 90%;
+        }
+        .end{
+            background-color: rgb(103, 102, 102);
+            color: white;
+            text-align: center;
+            margin: auto;
+            padding :5px;
+            margin-bottom: 10px;
+        }
+        *{ 
+         margin: 0px;
+        }
+        .mid{
+            padding-top: 20px;
+            padding-bottom:20px ;
+            display: flex;
+            flex-direction: row;
+            width:100%;
+        }
+        .text{
+            display: flex;
+            flex-direction: column;
+            float:left;
+            width: 60%;
+        }
+        .image{
+            width:30%;
+            height:auto;
+
+        }
+        .hey{
+            width:100%;
+            margin:auto;
+            padding-left: 50px;
+        }
+        .info, h1{
+            text-align: center;
+            margin: auto;
+            padding:15px;
+        }
+        .intro {
+            font-family:'Birthstone', cursive;
+            font-size: 30px;
+            }
+       
+       .btn {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        font-family: proximanova, Arial, Helvetica, Geneva, sans-serif;
+       }
+       
+       .btn:hover {
+        background-color: #555;
+       }
+       .separate{
+        color: rgb(7, 7, 7);
+        size:2px;
+        width: 90%;
+        
+       }
+       .icons{
+        width: 50px;
+        height:auto;
+       }
+       #search{
+        width:210px;
+        height: 40px;
+        background-color: rgb(255, 255, 255)bfb;
+        border:0px;
+        margin: auto;
+        margin-top:15px;
+        text-align: center;
+        color:rgb(9, 9, 9);
+        border-radius: 5px;
+    }
+       
+        
